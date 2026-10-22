@@ -1,0 +1,5 @@
+ Sabse pehle, I thought ki student details ko ek nested dictionary mein store karungi, jisme roll number unique key hoga.
+ Uske baad, I planned to use a `while` loop and `if-elif-else` statements to create a menu for different operations.
+ Students ka record search, display aur delete karne ke liye maine `get()`, `items()` aur `pop()` methods ka use kiya.
+ Code likhte time mujhse indentation, dictionary keys aur user input handle karne mein kuch errors hue, which I corrected by checking my code.
+ Finally, maine har option ko test kiya to make sure ki program properly work kare aur har operation ke baad menu dobara show ho.
