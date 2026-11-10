@@ -1,0 +1,14 @@
+###My Thinking Process#######
+
+First, I understood the calculator requirements and decided to divide the program into different functions. Maine har mathematical operation ke liye separate function banane ka socha.
+I created functions for addition, subtraction, multiplication, division, modulus, and power. Isse code simple aur organized raha.
+I planned to use a menu with eight options and a while loop so that the calculator keeps running until the user exits.
+I decided to use a list to store calculation history, so that the user can view previous calculations whenever needed.
+I also planned to use try-except for error handling. Isse invalid numbers aur zero se division jaise errors ko handle karna easy ho gaya.
+Finally, I used default arguments in the power function, so that if the user does not enter an exponent, the default power of 2 is used. Maine all operations test karne ka bhi plan banaya.
+
+###Errors I Made While Writing the Code###
+
+I did not handle division by zero properly at first, so I added a condition to check whether the second number is zero.
+I forgot to handle empty exponent input, so I added a default value of 2 when the user presses Enter.
+I initially did not store previous calculations, so I used a list and added each calculation to the history after successful execution

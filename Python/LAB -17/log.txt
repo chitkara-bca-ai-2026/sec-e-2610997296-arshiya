@@ -1,0 +1,20 @@
+#### My Thinking Process ####
+
+First, I understood the requirements and decided to use a dictionary to store student details. Maine roll number ko key aur name aur marks ko values ke form mein rakhne ka socha.
+I divided the program into separate functions for calculating results, displaying student details, and adding new students.
+I used a while loop to keep displaying the menu and if-elif-else conditions to perform different operations.
+For adding students, I planned to take their roll number, name, and marks of three subjects. Duplicate roll numbers ko avoid karne ke liye condition bhi add ki.
+For searching records, I used the dictionary's get() method so that students could be searched using their roll numbers.
+Finally, I used try-except to handle invalid marks and break to exit the program. Maine different options ko test karke check kiya ki program properly work kar raha hai.
+
+####Errors I Made While Writing the Code####
+
+I forgot to check whether a roll number already existed, so I added a condition to prevent duplicate student records.
+I initially did not handle an empty marks list, so I added a check before calculating the average to avoid division by zero.
+I initially did not handle incorrect roll numbers during searching, so I added a check to display "Student not found" when the record is unavailable.
+I initially forgot to remove extra spaces from user input, so I used strip() to clean the roll number and name.
+I initially did not check whether the student's name was empty, so I added a check to avoid accepting blank names.
+I forgot to display the average in a proper format, so I used two decimal places to make the output cleaner.
+I initially did not display a separator between student records, so I added a line to make the output easier to read.
+I did not handle invalid menu choices properly, so I added an else condition to display an error message.
+I initially did not check whether any student records existed before displaying them, so I added a condition to handle an empty dictionary.

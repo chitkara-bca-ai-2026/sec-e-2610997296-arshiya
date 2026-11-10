@@ -1,0 +1,18 @@
+
+###My Thinking Process###
+
+First, I understood that the program needed to perform two mathematical operations: factorial and Fibonacci series. Maine dono operations ke liye separate functions banane ka socha.
+I decided to use recursion because both factorial and Fibonacci can be solved by calling the same function again with smaller values.
+I added base cases to stop the recursive calls. Isse function infinite times call nahi hota aur correct result milta hai.
+I created a menu with three options and used a while loop so the user could perform multiple operations without restarting the program.
+I used if-elif-else conditions to handle the user's choices and try-except to handle invalid inputs.
+Finally, I added conditions to prevent negative factorial values and zero or negative Fibonacci terms. Maine different inputs ke saath program test karne ka plan banaya.
+
+###Errors I Made While Writing the Code###
+
+I initially forgot to add a base case in recursion, so I corrected it to stop the function from calling itself endlessly.
+I initially did not handle negative numbers in factorial, so I added a condition to accept only non-negative integers.
+I made a mistake in understanding Fibonacci's starting values, so I corrected the base cases to return 0 and 1.
+I initially did not handle alphabetic inputs, so I added try-except to prevent the program from stopping due to invalid input.
+I initially allowed zero terms in the Fibonacci option, so I added a condition to accept only positive numbers.
+I made sure to use break in the exit option so that the menu stops running when the user selects Exit.

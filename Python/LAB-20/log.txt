@@ -1,0 +1,17 @@
+
+###My Thinking Process###
+
+First, I understood that the program needed to maintain a daily log book. Maine decide kiya ki entries ko permanently save karne ke liye a text file use karungi.
+I created separate functions for displaying the menu, adding entries, and displaying the complete log.
+I used append mode ('a') so that new entries could be added without deleting the previous records.
+For displaying the log, I used read mode ('r') to read and show all saved entries.
+I used os.path.exists() to check whether the log file was available before reading it.
+Finally, I used try-except for file errors and a while loop to keep the menu running until the user selects Exit.
+
+###Errors I Made While Writing the Code###
+
+I initially used write mode instead of append mode, which could delete old entries, so I corrected it by using 'a'.
+I forgot to add a new line after each entry, so I used \n to keep every log entry separate.
+I initially did not check whether the file existed before reading it, so I added os.path.exists().
+I did not handle an empty log file, so I added a condition to display a message when no entries were available.
+I initially did not handle file-related errors, so I added try-except to prevent the program from stopping unexpectedly.

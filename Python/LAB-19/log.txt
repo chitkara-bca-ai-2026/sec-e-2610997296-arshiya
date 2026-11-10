@@ -1,0 +1,18 @@
+
+####My Thinking Process####
+
+First, I understood that the program needed to save and display student notes. Maine decide kiya ki notes ko permanently store karne ke liye text file use karungi.
+I created separate functions for displaying the menu, writing notes, and viewing saved notes. Isse code organized aur easy to understand raha.
+I used file handling with open() to create and write notes into a file named notes.txt.
+I used a while loop to take notes line by line until the user types SAVE. Uske baad notes file mein save ho jaate hain.
+For viewing notes, I used read mode to open the file and display its content. I also used os.path.exists() to check whether the file exists.
+Finally, I used try-except to handle file-related errors and break to exit the program.
+
+
+###Errors I Made While Writing the Code###
+
+I initially opened the file without checking if it existed, so I added os.path.exists() before reading the notes.
+I forgot to add a new line after each note, so I used \n to keep the notes properly arranged.
+I initially didn't check whether the file was empty, so I added a condition to display a message if no notes were available.
+I forgot to stop taking input after the SAVE command, so I added a condition with break to finish writing the notes.
+I added try-except to handle file errors so that the program would not stop unexpectedly.
